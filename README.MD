@@ -49,6 +49,10 @@ The paper states this drastically improved results, can come back to this later 
 
 The code takes the projectFiles/EDA/segment_info.csv file and looks through it and takes every single segment, and calculates the mfcc feature vector for it. The librosa library does pretty much all the work for it. Then we have X, which is a large table where each row is 13 coeffecients describing each sound, and the label y is the drum type (hhc, hho, kd, sd). Now we have features and labels. The paper did some extra stuff, adding extra coeffecients (like max derivative, temporal centroid), but I have skipped those for now, as with data augmentation above, we might come back to it if performance is mid. 
 
+# Unsupervised Learning and Visualizing Results
+
+## cells 14 - 16
+
 
 
 
