@@ -32,3 +32,24 @@ Data Organization
    - Entries are grouped by participant
    - Within each participant, entries are grouped by source file
    - Within each file, entries are chronologically ordered by onset_time
+
+# Audio Segmentation
+
+## cells 10 - 11
+
+Using the master dataset's onset times, cut each continuous audio recording into individual "boxemes" (isolated vocal percussion sounds). Basically took each wav file, which could have had multiple drum sounds, and extracted each indivual drum sound using the onset times. Each segment is 0.5 seconds long, following the papers research that this duration typically captures a complete amateur vocal hit without including adjacent sounds. Created a segments folder containing individual WAV files for each sound. Also generated segment_info.csv that maps each WAV segment back to its original metadata. The model we will train needs to have similar input, or else it cant learn propery, so this step makes all the input wav files the same length.
+
+# Data Augmentation
+
+The paper states this drastically improved results, can come back to this later since short on time
+
+# MFCC Feature Extraction
+
+## cells 12 - 13
+
+The code takes the projectFiles/EDA/segment_info.csv file and looks through it and takes every single segment, and calculates the mfcc feature vector for it. The librosa library does pretty much all the work for it. Then we have X, which is a large table where each row is 13 coeffecients describing each sound, and the label y is the drum type (hhc, hho, kd, sd). Now we have features and labels. The paper did some extra stuff, adding extra coeffecients (like max derivative, temporal centroid), but I have skipped those for now, as with data augmentation above, we might come back to it if performance is mid. 
+
+
+
+
+
