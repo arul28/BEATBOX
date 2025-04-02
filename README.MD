@@ -51,9 +51,16 @@ The code takes the projectFiles/EDA/segment_info.csv file and looks through it a
 
 # Unsupervised Learning and Visualizing Results
 
-## cells 14 - 16
+## cells 14 - 17
 
+Run super simple k-means model with 4 clusters. Performance is pretty bad. Visualizing results using PCA and 2d anda 3d plots. 
 
+need add cv, test train split, hyperparemter tuning to increase performance, and also try out more algos like dbscan and stuff
 
+# Evaluating K-Means
+
+## cells 18 - 19
+
+Evaluaitng results using multiple metrics, perofrmance is pretty bad
 
 
