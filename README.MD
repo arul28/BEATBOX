@@ -49,7 +49,18 @@ The paper states this drastically improved results, can come back to this later 
 
 The code takes the projectFiles/EDA/segment_info.csv file and looks through it and takes every single segment, and calculates the mfcc feature vector for it. The librosa library does pretty much all the work for it. Then we have X, which is a large table where each row is 13 coeffecients describing each sound, and the label y is the drum type (hhc, hho, kd, sd). Now we have features and labels. The paper did some extra stuff, adding extra coeffecients (like max derivative, temporal centroid), but I have skipped those for now, as with data augmentation above, we might come back to it if performance is mid. 
 
+# Unsupervised Learning and Visualizing Results
 
+## cells 14 - 17
 
+Run super simple k-means model with 4 clusters. Performance is pretty bad. Visualizing results using PCA and 2d anda 3d plots. 
+
+need add cv, test train split, hyperparemter tuning to increase performance, and also try out more algos like dbscan and stuff
+
+# Evaluating K-Means
+
+## cells 18 - 19
+
+Evaluaitng results using multiple metrics, perofrmance is pretty bad
 
 
