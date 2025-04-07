@@ -41,7 +41,8 @@ Using the master dataset's onset times, cut each continuous audio recording into
 
 # Data Augmentation
 
-The paper states this drastically improved results, can come back to this later since short on time
+In our data augmentation process, we take each original vocal percussion sound (boxeme) and create five variations of it using two key audio transformation techniques: pitch shifting and time stretching. For pitch shifting, we randomly adjust the pitch up or down within a range of -1.5 to +1.5 semitones, which creates subtle variations in the sound's frequency while maintaining its essential character. For time stretching, we randomly modify the duration of the sound by a factor between 0.8 and 1.2 (meaning the sound can be up to 20% faster or slower) without affecting its pitch. To add more variability, we randomly alternate the order of these transformations - sometimes applying pitch shift first, other times applying time stretch first. This process is applied five times to each original segment, resulting in five unique variations per original sound. For example, if we start with a hi-hat sound, we might create one version that's slightly higher pitched and slower, another that's lower pitched and faster, and so on. The original segments are also copied to the augmented directory, bringing our total from 5,714 original segments to 34,284 segments (5,714 originals + 28,570 augmented versions). This augmentation helps simulate natural variations in how different people might perform the same drum sound, potentially improving our model's ability to recognize these sounds across different performers and styles.
+
 
 # MFCC Feature Extraction
 
