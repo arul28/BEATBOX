@@ -8,3 +8,4 @@ jupyter
 notebook
 ipykernel
 tqdm
+metric-learn

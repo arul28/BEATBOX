@@ -1,0 +1,8 @@
+segment_path,instrument_label,onset_time,original_wav
+../audio/sample1/segments/kd_segments/user_kd_0000.wav,kd,0.021333333333333333,../audio/sample1/vox/kick.wav
+../audio/sample1/segments/kd_segments/user_kd_0001.wav,kd,0.5973333333333334,../audio/sample1/vox/kick.wav
+../audio/sample1/segments/kd_segments/user_kd_0002.wav,kd,1.3866666666666667,../audio/sample1/vox/kick.wav
+../audio/sample1/segments/kd_segments/user_kd_0003.wav,kd,1.9413333333333334,../audio/sample1/vox/kick.wav
+../audio/sample1/segments/kd_segments/user_kd_0004.wav,kd,2.88,../audio/sample1/vox/kick.wav
+../audio/sample1/segments/kd_segments/user_kd_0005.wav,kd,3.456,../audio/sample1/vox/kick.wav
+../audio/sample1/segments/kd_segments/user_kd_0006.wav,kd,4.32,../audio/sample1/vox/kick.wav
