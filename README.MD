@@ -11,6 +11,15 @@ A machine learning system for classifying drum sounds using a hybrid KNN approac
 | Hybrid        | KNN with 5 user-specific samples + feature weighting via Ridge/Lasso        | 83.8% Accuracy | Personalized, low data requirement     | Requires minimal user input at runtime        |
 
 
+## Dataset
+
+This project uses the combined **AVP-LVT Vocal Percussion Dataset**, which merges:
+- AVP (Amateur Vocal Percussion) — 28 performers
+- LVT (Live Vocalised Transcription) — 20 performers
+
+Both datasets are preprocessed and included in the repository under the `data/` and `csv_info/` directories. These include segmented audio clips, standardized labels, and annotation metadata for training, evaluation, and synthesis.
+
+
 ## Setup Instructions
 
 1. Create a Python virtual environment:
