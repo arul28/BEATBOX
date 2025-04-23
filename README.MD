@@ -17,30 +17,6 @@ source venv/bin/activate  # On macOS/Linux
 pip install -r requirements.txt
 ```
 
-## Project Structure
-
-```
-BEATBOX/
-├── projectFiles/
-│   ├── code/
-│   │   ├── datacollection.ipynb
-│   │   ├── audiosegmentation.ipynb
-│   │   ├── segmentaugmentation.ipynb
-│   │   ├── feature_extraction/
-│   │   │   ├── mfcc_extraction.ipynb
-│   │   │   ├── envelope_features.ipynb
-│   │   │   └── feature_selection.ipynb
-│   │   ├── models/
-│   │   │   ├── knn_hybrid.py
-│   │   │   └── [other model files]
-│   │   └── final_pipeline/
-│   │       └── code/
-│   │           └── pipeline.ipynb
-│   ├── audio/
-│   ├── extracted_features/
-│   └── visualization/
-```
-
 ## Workflow
 
 1. **Data Collection and Processing**
@@ -57,7 +33,7 @@ BEATBOX/
 
 3. **Model Training**
    - Navigate to the `models` folder
-   - Run the model files, including `knn_hybrid.py`
+   - Run the model files
 
 4. **Final Pipeline**
    - Navigate to `final_pipeline/code/`
@@ -78,19 +54,3 @@ The system uses a hybrid KNN approach that:
 - Uses Ridge/Lasso regression to identify important features
 - Implements weighted distance metrics for improved classification
 - Adapts to individual playing styles
-
-## Requirements
-
-See `requirements.txt` for a complete list of dependencies. Key packages include:
-- numpy
-- pandas
-- scikit-learn
-- librosa
-- matplotlib
-- seaborn
-
-## Notes
-
-- Ensure all audio files are in the correct format (WAV)
-- Follow the workflow in order as each step depends on the previous one
-- The system is designed to work with drum sounds but can be adapted for other audio classification tasks
