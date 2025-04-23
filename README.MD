@@ -2,6 +2,15 @@
 
 A machine learning system for classifying drum sounds using a hybrid KNN approach with personalization capabilities.
 
+## Model Comparison
+
+| Approach      | Description                                                                 | Accuracy / ARI | Strengths                              | Limitations                                   |
+|---------------|-----------------------------------------------------------------------------|----------------|----------------------------------------|-----------------------------------------------|
+| Unsupervised  | Clustering with K-Means, GMM, HDBSCAN, Hierarchical                         | ARI ≈ 0.11     | No labels needed, flexible discovery   | Poor label alignment, low structure clarity   |
+| Supervised    | Global KNN model trained on all users, tested on unseen participants        | 57.0% Accuracy | Simple, interpretable                  | Weak generalization to new users              |
+| Hybrid        | KNN with 5 user-specific samples + feature weighting via Ridge/Lasso        | 83.8% Accuracy | Personalized, low data requirement     | Requires minimal user input at runtime        |
+
+
 ## Setup Instructions
 
 1. Create a Python virtual environment:
