@@ -1,0 +1,9 @@
+segment_path,instrument_label,onset_time,original_wav
+../audio/sample1/segments/sd_segments/user_sd_0000.wav,sd,0.021333333333333333,../audio/sample1/vox/snare.wav
+../audio/sample1/segments/sd_segments/user_sd_0001.wav,sd,0.608,../audio/sample1/vox/snare.wav
+../audio/sample1/segments/sd_segments/user_sd_0002.wav,sd,1.5253333333333334,../audio/sample1/vox/snare.wav
+../audio/sample1/segments/sd_segments/user_sd_0003.wav,sd,2.3786666666666667,../audio/sample1/vox/snare.wav
+../audio/sample1/segments/sd_segments/user_sd_0004.wav,sd,3.2213333333333334,../audio/sample1/vox/snare.wav
+../audio/sample1/segments/sd_segments/user_sd_0005.wav,sd,3.7013333333333334,../audio/sample1/vox/snare.wav
+../audio/sample1/segments/sd_segments/user_sd_0006.wav,sd,4.661333333333333,../audio/sample1/vox/snare.wav
+../audio/sample1/segments/sd_segments/user_sd_0007.wav,sd,5.429333333333333,../audio/sample1/vox/snare.wav

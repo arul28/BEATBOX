@@ -1,0 +1,10 @@
+Segment,Start_Time,Predicted_Label,Confidence,True_Label,Correct
+/Users/arul/ML/BEATBOX/projectFiles/code/final_pipeline/audio/sample1/segments/full_segments2/segment_0000.wav,0.7662585034013606,hhc,0.36363636363636365,kd,False
+/Users/arul/ML/BEATBOX/projectFiles/code/final_pipeline/audio/sample1/segments/full_segments2/segment_0001.wav,1.4164172335600906,sd,0.6363636363636365,sd,True
+/Users/arul/ML/BEATBOX/projectFiles/code/final_pipeline/audio/sample1/segments/full_segments2/segment_0002.wav,2.426485260770975,hhc,0.4545454545454546,kd,False
+/Users/arul/ML/BEATBOX/projectFiles/code/final_pipeline/audio/sample1/segments/full_segments2/segment_0003.wav,2.7747845804988662,sd,0.8181818181818181,sd,True
+/Users/arul/ML/BEATBOX/projectFiles/code/final_pipeline/audio/sample1/segments/full_segments2/segment_0004.wav,3.4713832199546486,kd,0.7272727272727274,kd,True
+/Users/arul/ML/BEATBOX/projectFiles/code/final_pipeline/audio/sample1/segments/full_segments2/segment_0005.wav,4.098321995464852,sd,0.8181818181818181,sd,True
+/Users/arul/ML/BEATBOX/projectFiles/code/final_pipeline/audio/sample1/segments/full_segments2/segment_0006.wav,5.108390022675737,kd,0.5454545454545455,kd,True
+/Users/arul/ML/BEATBOX/projectFiles/code/final_pipeline/audio/sample1/segments/full_segments2/segment_0007.wav,5.421859410430839,sd,1.0,sd,True
+/Users/arul/ML/BEATBOX/projectFiles/code/final_pipeline/audio/sample1/segments/full_segments2/segment_0008.wav,5.746938775510204,sd,0.6363636363636365,sd,True
