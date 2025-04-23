@@ -17,7 +17,7 @@ This project uses the combined **AVP-LVT Vocal Percussion Dataset**, which merge
 - AVP (Amateur Vocal Percussion) — 28 performers
 - LVT (Live Vocalised Transcription) — 20 performers
 
-Both datasets are preprocessed and included in the repository under the `data/` and `csv_info/` directories. These include segmented audio clips, standardized labels, and annotation metadata for training, evaluation, and synthesis.
+Both datasets are preprocessed and included in the repository under the `data/` directory. These include segmented audio clips, standardized labels, and annotation metadata for training, evaluation, and synthesis.
 
 
 ## Setup Instructions
